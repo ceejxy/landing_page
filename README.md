@@ -1,1 +1,1 @@
-# landing_page
+This is my first attempt at creating a responsive landing page using Flexbox. The main theme is Berserk, my favorite Manga.
