@@ -1,0 +1,257 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900);
+
+
+
+body {
+    font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.columns {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.column1 {
+    background-color: rgb(139, 18, 18);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.right-header {
+    font-size: 30px;
+    font-weight: 900;
+    color: #2e2d2d;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.guts {
+    mix-blend-mode: multiply;
+    height: 130px;
+    max-width: 150px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 28px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #2e2d2d;
+}
+
+.column2 {
+    background-color: #2e2d2d;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+
+
+.left-container {
+    border-radius: 15px;
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 250px;
+    padding: 20px;
+}
+
+
+
+.gg {
+    height: auto;
+    width: 500px;
+    min-width: 50px;
+    border-radius: 10px;
+}
+
+
+.subtext {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: rgb(212,200,200);
+  
+}
+
+.main-text {
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    color: rgb(212,200,200);
+}
+
+.wiki {
+    background-color: rgb(139, 18, 18);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #e5e7eb;
+    font-size: 15px;
+    font-weight: 900;
+    width: 28%;
+}
+
+.wiki a {
+    color: rgb(212,200,200);
+}
+
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(212,200,200);
+    color: #1F2937;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 34px;
+    font-weight: 900;
+    padding: 20px 40px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.iat {
+    border: 5px solid rgb(139, 18, 18);
+    border-radius: 8px;
+    width: 160px;
+}
+
+.friend {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+
+.column4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color:#2e2d2d;
+}
+
+.quote {
+    width: 60%;
+}
+
+.quote-text {
+    font-size: 23px;
+    padding-bottom: 20px;
+    color:rgb(139, 18, 18);
+    font-weight: 700;
+}
+
+.author {
+    text-align: right;
+    font-size: 20px;
+    color:rgb(139, 18, 18);
+    font-weight: 600;
+}
+
+.column5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: rgb(212,200,200);
+}
+
+.big-container {
+    background-color: rgb(139, 18, 18);
+    border-radius: 15px;
+    padding: 21px;
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    min-height: 80px;
+    align-items: center;
+}
+
+.text1,
+.text2 {
+    color: #2e2d2d;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.text1 {
+    padding-bottom: 15px;
+}
+
+
+.click {
+    border-color: #f9faf8;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #2e2d2d;
+    color:rgb(139, 18, 18);
+    font-weight: 800;
+}
+
+.brand {
+    width: 90px;
+    height: 90px;
+    mix-blend-mode: multiply;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    background-color:rgb(139, 18, 18);
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e2d2d;
+}
