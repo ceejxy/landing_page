@@ -6,33 +6,36 @@ body {
     font-family: roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    justify-content: space-between;
 }
 
 .columns {
     display: flex; 
     flex-direction: column;
     flex-wrap: wrap;
-    flex-basis: 100%;
 }
 
 
 .column1 {
     background-color: rgb(139, 18, 18);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 120px;
-    height: 130px;
+    flex-wrap: wrap;
 }
 
+
 .right-header {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 900;
     color: #2e2d2d;
     display: flex;
     align-items: center;
     gap: 20px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .guts {
@@ -45,7 +48,7 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 28px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -58,71 +61,72 @@ a {
     background-color: #2e2d2d;
     display: flex;
     align-items: center;
-    height: 450px;
-    justify-content: center;
-    gap: 60px;
+    padding: 40px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
 }
+
 
 
 .left-container {
-    background-color: rgb(139, 18, 18);
     border-radius: 15px;
-    padding: 21px;
-    flex-basis: 30%;
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 250px;
+    padding: 20px;
 }
 
-.right-container {
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    color: #1f2937;
-    background-color: rgb(206, 204, 204);
-    color: #e5e7eb;
-}
+
 
 .gg {
     height: auto;
-    max-width: 450px;
+    width: 500px;
+    min-width: 50px;
     border-radius: 10px;
 }
 
+
 .subtext {
-    flex: 0 0 400px;
-    color: #2e2d2d;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
     font-weight: 500;
-
+    color: rgb(212,200,200);
+  
 }
 
 .main-text {
-    color: #2e2d2d;
-    font-size: 43px;
+    font-size: 25px;
     font-weight: 800;
     padding-bottom: 15px;
+    color: rgb(212,200,200);
 }
 
 .wiki {
-    background-color: #2e2d2d;
+    background-color: rgb(139, 18, 18);
     border-radius: 10px;
     padding: 10px 20px;
     color: #e5e7eb;
-    font-size: 1.3vw;
+    font-size: 15px;
     font-weight: 900;
+    width: 28%;
 }
 
 .wiki a {
-    color: rgb(139, 18, 18);
+    color: rgb(212,200,200);
 }
 
 
 .column3 {
     display: flex;
     flex-direction: column;
-    height: 550px;
     background-color: rgb(212,200,200);
     color: #1F2937;
     gap: 30px;
+    padding-bottom: 30px;
 }
 
 .random {
@@ -139,12 +143,14 @@ a {
     display: flex;
     justify-content: center;
     gap: 52px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 .iat {
     border: 5px solid rgb(139, 18, 18);
     border-radius: 8px;
-    flex-basis: 12%;
+    width: 160px;
 }
 
 .friend {
@@ -169,7 +175,6 @@ a {
     justify-content: center;
     align-items: center;
     height: 300px;
-    width: 100vw;
     background-color:#2e2d2d;
 }
 
@@ -178,7 +183,7 @@ a {
 }
 
 .quote-text {
-    font-size: 30px;
+    font-size: 23px;
     padding-bottom: 20px;
     color:rgb(139, 18, 18);
     font-weight: 700;
@@ -195,9 +200,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 350px;
+    height: 50vh;
     background-color: rgb(212,200,200);
-    width: 100vw;
 }
 
 .big-container {
